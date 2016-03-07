@@ -9,10 +9,13 @@
     "url": "https://github.com/seanc/queue"
   },
   "scripts": {
-    "test": "node test"
+    "test": "ava test"
   },
   "private": false,
   "files": [
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "ava": "^0.12.0"
+  }
 }
